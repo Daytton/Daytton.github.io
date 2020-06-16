@@ -103,6 +103,9 @@ footer{
 	margin: auto;
 	width:80%;
 }
+.D{
+	margin-left:4rem;
+}
 /* I picked this to attempt to bring the boss word down*/
  .Boss{
  	margin-right: 13rem;
@@ -150,6 +153,9 @@ footer{
 		background-repeat: no-repeat;
 		background-size: 40%;
 		background-position: center 150px;
+	}
+	.D{
+		margin-left:9rem;
 	}
 	h1{
 		font-size: 2.5rem;
