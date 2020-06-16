@@ -71,7 +71,7 @@ a{
 	display: flex;
 	justify-content: space-around;
 	padding-bottom: 1rem;
-
+/* I picked flex rather than grid only because i personally feel more condifent with flex */
 }
 .wrapper2{
 	color: #333131;
@@ -100,6 +100,7 @@ footer{
 	margin: auto;
 	width:80%;
 }
+/* I picked this to attempt to bring the boss word down*/
  .Boss{
  	margin-right: 13rem;
  }
@@ -144,8 +145,8 @@ footer{
 	body{
 		background-image: url(../images/bg-image/scooter.svg);
 		background-repeat: no-repeat;
-		background-size: 42%;
-		background-position: center 136px;
+		background-size: 50%;
+		background-position: center 130px;
 	}
 	h1{
 		font-size: 2.5rem;
@@ -170,7 +171,9 @@ footer{
 		justify-content: space-between;
 	}
 	.icon{
-		
-		width: 20%;
+		width: 30%;
+	}
+	.contact{
+		width: 130%;
 	}
 }
