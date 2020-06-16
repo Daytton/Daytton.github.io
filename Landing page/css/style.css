@@ -1,0 +1,176 @@
+body{
+	background-color:#f7f7ff;
+}
+p{
+	font-family: Montserrat, sans-serif;
+}
+.wrapper{
+	margin-left: 1rem;
+	font-family: Montserrat, sans-serif;
+	color: #333131;
+	
+}
+.D{
+	width: 5rem;
+	height: 5rem;
+}
+.Boss{
+	margin-right: 4rem;
+	font-size: 3.5rem;
+}
+#scoot{
+	width: 80%;
+	margin-left: 2rem;
+}
+fieldset{
+	border:none;
+	width: 90%
+}
+#apply{
+	text-align: center;
+	margin: auto;
+	width: 80%;
+	border-radius: 15px 15px 15px 15px;
+	background-color: white;
+	box-shadow: grey 3px 3px 3px 3px;
+	padding-bottom:1rem;
+}
+input{
+	margin-top: 5px;
+	border:none;
+	border-radius: 7px 7px 7px 7px;
+	background-color: #f7f7ff;
+}
+button{
+	width: 80%;
+	border-radius: 7px 7px 7px 7px;
+}
+#check{
+	text-align: center;
+}
+
+a{
+	color: #ff8480;
+}
+.drive{
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: #57eeab;
+}
+.calc{
+	width: 95%;
+	font-weight: bold;
+	font-size: 1rem;
+	color: white;
+	background-color: #ff8480;
+	border:none;
+}
+.icon{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 1rem;
+
+}
+.wrapper2{
+	color: #333131;
+	font-family: Montserrat, sans-serif;
+	width:80%;
+	margin: auto;
+}
+
+.hour{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	width:20%;
+	margin-right: 5px;
+}
+.city{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 70%;
+}
+footer{
+	width: 100%;
+	background-color:#fffd8c;
+}
+@media (min-width: 500px){
+.wrapper{
+	margin: auto;
+	width:80%;
+}
+ .Boss{
+ 	margin-right: 13rem;
+ }
+
+#fname,#lname,#phone,#email{
+	width: 90%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.agree{
+	text-align: left;
+	margin-left: 1rem;
+}
+.drive{
+	width: 87%;
+}
+#form2{
+	display: flex;
+}
+#field2{
+	text-align: center;
+}
+.hour{
+	width:10%;
+}
+.city{
+	
+	width:40%;
+	margin-right: 10px;
+}
+.calc{	
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	width: 30%;
+}
+.icon{
+	margin: auto;
+	width:60%;
+}
+} 
+@media (min-width: 1100px){
+	body{
+		background-image: url(../images/bg-image/scooter.svg);
+		background-repeat: no-repeat;
+		background-size: 42%;
+		background-position: center 136px;
+	}
+	h1{
+		font-size: 2.5rem;
+	}
+	fieldset p {
+		font-size: 2rem;
+	}
+	#scoot{
+		display: none;
+	}
+	.wrapper{
+		display:grid;
+		grid-template-columns: 1fr 1fr; 
+		grid-template-rows: 1fr;
+		grid-gap: 25rem;
+
+	}
+	.wrapper2{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+	.icon{
+		
+		width: 20%;
+	}
+}
