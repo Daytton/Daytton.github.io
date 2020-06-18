@@ -2,12 +2,13 @@ body{
 	margin:-8px;
 	background-color:#f7f7ff;
 }
+
 p{
-	font-family: 'montserrat-lightitalic' , sans-serif;
+	font-family: 'montserrat-thin' , sans-serif;
 }
 .wrapper{
 	margin-left: 1rem;
-	font-family: 'montserrat-lightitalic', sans-serif;
+	font-family: 'montserrat-light', sans-serif;
 	color: #333131;
 	
 }
@@ -18,13 +19,17 @@ p{
 	height: 5rem;
 }
 .Boss{
-	font-family: 'montserrat-extrabold' , sans-serif;
+	font-family: 'montserrat-bold' , sans-serif;
 	margin-right: 4rem;
 	font-size: 3.5rem;
 }
 #scoot{
 	width: 80%;
 	margin-left: 2rem;
+}
+fieldset p{
+	font-family: 'montserrat-thin' , sans-serif;
+	
 }
 fieldset{
 	border:none;
@@ -161,13 +166,17 @@ footer{
 	h1{
 		font-size: 2.5rem;
 	}
+	
 	fieldset p {
-		font-size: 3rem;
+		margin-left: 1rem;
+		text-align: left;
+		font-size: 1.7rem;
 	}
 	#scoot{
 		display: none;
 	}
 	.wrapper{
+		margin-top: 5rem;
 		margin-bottom: 2rem;
 		display:grid;
 		grid-template-columns: 1fr 1fr; 
