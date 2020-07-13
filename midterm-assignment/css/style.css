@@ -103,7 +103,7 @@ footer{
 	justify-content: space-between;
 	background-color:#DD2836;}
 
-button a{
+.button a{
 		color: white;
 		background:none;
 		padding-right: 0.6rem;
