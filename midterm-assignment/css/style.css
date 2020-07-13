@@ -109,8 +109,8 @@ h3 .button {
 		padding-right: 0.6rem;
 
 	}
-	h3 .button a:link,
-	h3 .button a:visited{
+	.button a:link,
+	.button a:visited{
 color:white;
 	}
 /*reviewpage*/
