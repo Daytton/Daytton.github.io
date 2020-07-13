@@ -102,8 +102,7 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	background-color:#DD2836;}
-
-h3 .button {
+.button {
 		color: white;
 		background-color:blue;
 		padding-right: 0.6rem;
