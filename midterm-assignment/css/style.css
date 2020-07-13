@@ -2,6 +2,12 @@
 	margin: auto;
 	width: 90%;
 }
+h1 , h2 , h3{
+	font-family: 'Hind Siliguri', sans-serif;
+}
+p{
+	font-family: 'Muli', sans-serif;
+}
 .wrapperhome{
 	color: white;
 }
