@@ -101,16 +101,13 @@ footer{
 	color: white;
 	display: flex;
 	justify-content: space-between;
-	background-color:#DD2836;}
-.button {
-		color: white;
-		background-color:blue;
-		padding-right: 0.6rem;
+	background-color:#DD2836;
+}
 
-	}
 	.button a:link,
 	.button a:visited{
 color:white;
+background-color: #2699FB;
 	}
 /*reviewpage*/
 .reviewimage{
