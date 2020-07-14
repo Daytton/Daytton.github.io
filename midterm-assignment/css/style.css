@@ -93,6 +93,9 @@ button{
 .contact{
 	background-color: #E81241;
 }
+.contactimage{
+	display: none;
+}
 .wrappercontact{
 	color: white;
 }
@@ -246,6 +249,7 @@ button{
 	flex-direction: column;
 }
 .contactimage{
+	display: block;
 	margin-top: 4rem;
 	width: 500px;
 	height: 310px;
