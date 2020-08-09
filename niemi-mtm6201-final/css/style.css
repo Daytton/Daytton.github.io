@@ -7,6 +7,9 @@ img{
 	max-width: 100%;
 	height: auto;
 }
+p{
+	font-family: 'montserrat-thin' , sans-serif;
+}
 .we-are{
 	max-width: 400px;
 }
