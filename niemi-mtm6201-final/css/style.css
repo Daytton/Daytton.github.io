@@ -1,0 +1,40 @@
+.wrapper{
+	margin: auto;
+	text-align: center;
+}
+img{
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+.we-are{
+	max-width: 400px;
+}
+li{
+	color: grey;
+}
+.come-back{
+	display: none;
+}
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+.contactpage{
+	background-color: green;
+}
+footer{
+	text-align: center;
+	margin-top: 3rem;
+	background-color:green;
+}
+
+@media(min-width: 768px){
+	.come-back{
+		display: block;
+	}
+	.go-away{
+		display: none;
+	}
+}
